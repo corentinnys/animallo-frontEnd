@@ -1,0 +1,48 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Assure que les éléments sont alignés verticalement */
+    margin-bottom: 20px; /* Espacement entre les cartes */
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Pour faire un cercle avec l'image */
+    margin-bottom: 10px; /* Espacement sous l'image */
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.card-body {
+    text-align: center;
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+.stars {
+    display: flex;
+    align-items: center; /* Aligne verticalement les étoiles et le texte */
+    margin-bottom: 10px; /* Espacement entre les étoiles et le titre */
+}
+
+.stars span {
+    margin-right: 5px; /* Espacement entre les étoiles */
+}
